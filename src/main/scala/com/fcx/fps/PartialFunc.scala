@@ -16,12 +16,12 @@ object PartialFunc extends App {
 package partial {
 
   object Test {
-    def add(a: Int, b: Int) = a + b
+    def add(a: Int, b: Int): Int = a + b
 
-    def plus(a: Int)(b: Int) = a + b
+    def plus(a: Int)(b: Int): Int = a + b
 
-    val add2 = add(2, _)
-    val plus2 = plus(2) _
+    val add2: Int => Int = add(2, _)
+    val plus2: Int => Int = plus(2)
   }
 
 }
