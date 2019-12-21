@@ -10,6 +10,7 @@ import scala.concurrent.Future
 import scala.io.Source
 
 import com.fcx.learningconcurrency._
+
 /**
  * Author: Will Fan
  * Description: TODO
