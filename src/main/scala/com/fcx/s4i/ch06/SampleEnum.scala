@@ -19,7 +19,7 @@ object SampleEnum extends App {
     else if (color == Yellow) "hurry up"
     else "go"
   }
-
+  
   println(doWhat(Red), doWhat(Yellow), doWhat(Green))
 
   for (c <- TrafficLightColor.values) println(s"${c.id}: $c")
