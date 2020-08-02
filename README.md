@@ -1,2 +1,2 @@
-# ScalaTut
-Scala tut
+# ScalaExamples
+Scala Examples
